@@ -30,12 +30,12 @@ export function HeroSection() {
         </div>
         <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl group">
             <Image
-              src="https://placehold.co/800x450.png"
-              alt="POWER Simulation in action"
+              src="/images/hero-simulation-showcase.jpg"
+              alt="POWER Business Simulation showcase"
               layout="fill"
               objectFit="cover"
               className="transform group-hover:scale-105 transition-transform duration-500"
-              data-ai-hint="business simulation team"
+              data-ai-hint="business simulation"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
             <div className="absolute bottom-4 left-4 text-white">
